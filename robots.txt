@@ -1,1 +1,1 @@
-User-agent: * Disallow: Sitemap: https://iadsl.github.io/capstone/sitemap.xml
+User-agent: * Disallow: Sitemap: https://iadsl.github.io/capstones/sitemap.xml
