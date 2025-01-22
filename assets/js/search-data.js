@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/capstones/projects/";
           },
+        },{id: "nav-students",
+          title: "Students",
+          description: "Profiles of undergraduate and graduate students who finished capstone, master project, or thesis under my supervision.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/capstones/people/";
+          },
         },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
@@ -429,6 +436,11 @@ ninja.data = [{
           description: "A web application for purchasing and utilizing gift cards with integrated discounts.",
           section: "Projects",handler: () => {
               window.location.href = "/capstones/projects/2025w-4/";
+            },},{id: "projects-cvdpredict",
+          title: 'CVDPredict',
+          description: "Predictive Analytics for Cardiovascular Disease.",
+          section: "Projects",handler: () => {
+              window.location.href = "/capstones/projects/2025w-5/";
             },},{id: "projects-project-2",
           title: 'project 2',
           description: "a project with a background image and giscus comments",
