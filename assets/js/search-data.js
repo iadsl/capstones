@@ -21,7 +21,7 @@ ninja.data = [{
           description: "Profiles of undergraduate and graduate students who finished capstone, master project, or thesis under my supervision.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/capstones/people/";
+            window.location.href = "/capstones/students/";
           },
         },{id: "post-a-post-with-image-galleries",
       
@@ -441,6 +441,11 @@ ninja.data = [{
           description: "Predictive Analytics for Cardiovascular Disease.",
           section: "Projects",handler: () => {
               window.location.href = "/capstones/projects/2025w-5/";
+            },},{id: "projects-plato",
+          title: 'PLATO',
+          description: "Philosophical Language Analysis for Topic and Opinion Mining",
+          section: "Projects",handler: () => {
+              window.location.href = "/capstones/projects/2025w-6/";
             },},{id: "projects-project-2",
           title: 'project 2',
           description: "a project with a background image and giscus comments",
